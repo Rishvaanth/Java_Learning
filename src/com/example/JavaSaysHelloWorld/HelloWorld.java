@@ -3,9 +3,8 @@ package com.example.JavaSaysHelloWorld;
 import java.util.SortedMap;
 
 public class HelloWorld {
-    public static void main(String[] args) {
+    public void main(String[] args) {
         System.out.println("Java Says Hello World");
-        myMethod();
         wordNameAppender("Martin");
         wordNameAppender("Sanchez");
         int x = add(20, 30);
