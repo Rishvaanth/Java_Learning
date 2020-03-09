@@ -9,6 +9,8 @@ public class Class13 {
             System.out.println("Division is: " + x);
         } catch (Exception e) {
             System.out.println("Error: " + e);
+        } finally {
+            System.out.println("Errors were handled if they had existed");
         }
     }
 }
