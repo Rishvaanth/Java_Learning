@@ -1,5 +1,7 @@
 package com.example.JavaSaysHelloWorld;
 
+import java.util.Scanner;
+
 /*Polymorphism*/
 class Class9 {
     public void Saythings() {
@@ -22,6 +24,9 @@ class Willsaythings extends Class9 {
         newObj2.Saythings();
         Willsaythings newObj3 = new Willsaythings();
         newObj3.Saythings();
+        Scanner newObj4 = new Scanner(System.in);
+        System.out.println("Enter your name");
+        String username = newObj4.nextLine();
     }
 
     public void Saythings() {
